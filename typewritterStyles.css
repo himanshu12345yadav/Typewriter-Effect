@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+}
+body {
+    background-color: #1eb2a6;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    margin-top: 20vh;
+    width: 70%;
+    border: 2px solid black;
+    justify-content: center;
+    height: 50px;
+    font-size: 28px;
+    letter-spacing: 2;
+    text-transform: capitalize;
+    background-color: #d4f8e8;
+    border-radius: 20px;
+}
+
+.blink {
+    font-size: 40px;
+    font-weight: normal;
+    animation: blink-Fade 0.4s ease infinite alternate;
+}
+@keyframes blink-Fade {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
