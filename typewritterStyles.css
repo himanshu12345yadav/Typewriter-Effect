@@ -6,7 +6,6 @@
     font-weight: normal;
 }
 body {
-    /* background-color: #1eb2a6; */
     background-image: url(naturePhoto.jpg);
     background-size: cover;
 }
@@ -41,4 +40,14 @@ body {
     to {
         opacity: 1;
     }
+}
+footer {
+    position: absolute;
+    top: 95vh;
+    font-size: 16px;
+    text-align: center;
+    padding-left: 20px;
+}
+footer i {
+    color: #cc3d5c;
 }
