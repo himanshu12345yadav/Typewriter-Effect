@@ -2,7 +2,7 @@
 ___
 
 # Getting Started
-To view the result straight into your browser [`click here`](https://himanshu12345yadav.github.io/…)
+To view the result straight into your browser [`click here`](https://himanshu12345yadav.github.io/Typewriter-Effect/home.html)
 
 If you wanna make some changes and give your own flavour to this, feel free to do so.
 
