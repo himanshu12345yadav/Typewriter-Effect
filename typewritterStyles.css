@@ -3,25 +3,20 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    font-family: 'Bebas Neue', cursive;
     font-weight: normal;
 }
 body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: linear-gradient(
-        45deg,
-        #ee7752,
-        #e73c7e 50%,
-        #23a6d5,
-        #23d5ab 50%
-    );
+    background-image: url(./wallpaper.png);
 }
 .container {
     display: flex;
     align-items: center;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 30vh;
     min-width: 70%;
     justify-content: center;
     min-height: 50px;
@@ -30,30 +25,22 @@ body {
     border-radius: 20px;
     padding: 20px;
     text-align: center;
+    font-size: 5rem;
 }
 #typing-text {
-    background: linear-gradient(45deg, #22d8f8 50%, #ffee00 50%);
+    background: linear-gradient(to right, #f822a6 50%, #71f5d4 50%);
     background-clip: text;
-    font-size: 3em;
+    font-size: 1em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.fixed-text {
-    width: 100%;
-    text-align: center;
-    color: #6a15802d;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 5rem;
-    transform: translate(-50%, -50%);
-}
-.blink {
-    color: #e93991;
+
+#typing-text:after {
+    content: '|';
     padding: 10px;
-    font-size: 3.2em;
+    font-size: 1.2em;
     font-weight: normal;
-    animation: blink-Fade 0.4s ease infinite alternate;
+    animation: blink-Fade 0.4s infinite alternate ease-in-out;
 }
 @keyframes blink-Fade {
     from {
@@ -65,9 +52,11 @@ body {
     }
 }
 footer {
+    font-family: 'Lobster', cursive;
+    color: #242121;
     position: absolute;
     top: 95vh;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     padding-left: 20px;
 }
@@ -77,17 +66,12 @@ footer i {
 @media (max-width: 800px) {
     .container {
         padding: 20px 0px;
-        font-size: 0.6rem;
+        font-size: 3rem;
     }
-    .fixed-text {
-        font-size: 4rem;
-    }
+   
 }
 @media (max-width: 600px) {
     .container {
-        font-size: 0.4rem;
-    }
-    .fixed-text {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
