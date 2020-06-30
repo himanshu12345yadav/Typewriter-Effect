@@ -28,7 +28,7 @@ body {
     font-size: 5rem;
 }
 #typing-text {
-    background: linear-gradient(to right, #f822a6 50%, #71f5d4 50%);
+    background: linear-gradient(to right, #f822a6 50%, #fa8a49 50%);
     background-clip: text;
     font-size: 1em;
     -webkit-background-clip: text;
@@ -37,6 +37,9 @@ body {
 
 #typing-text:after {
     content: '|';
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: #fff;
     padding: 10px;
     font-size: 1.2em;
     font-weight: normal;
@@ -68,7 +71,6 @@ footer i {
         padding: 20px 0px;
         font-size: 3rem;
     }
-   
 }
 @media (max-width: 600px) {
     .container {

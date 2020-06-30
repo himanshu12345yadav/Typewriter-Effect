@@ -1,8 +1,8 @@
 const text_1 = 'Hey there, Welcome! :)';
 const text_2 = 'I am a full stack developer';
-const text_3 = 'I also do artificial intelligence in python';
-const text_4 = 'and also ethical hacking with kali linux';
-const text_5 = 'in simple words i am a computer enthusiast';
+const text_3 = 'A compositor, video editor, GFX designer';
+const text_4 = 'and also like to do ethical hacking with kali linux';
+const text_5 = 'In simple words i am a computer enthusiast';
 const text = [text_1, text_2, text_3, text_4, text_5];
 const typingText = document.getElementById('typing-text');
 var i = 0,
